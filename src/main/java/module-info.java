@@ -6,4 +6,6 @@ module com.example.hospitalinformationsystem {
 
     opens com.example.hospitalinformationsystem to javafx.fxml;
     exports com.example.hospitalinformationsystem;
+    exports com.example.hospitalinformationsystem.controller;
+    opens com.example.hospitalinformationsystem.controller to javafx.fxml;
 }
