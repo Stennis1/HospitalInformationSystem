@@ -23,7 +23,7 @@ public class PatientDAO {
             stmt.setString(2, patient.getFirstName());
             stmt.setString(3, patient.getLastName());
             stmt.setString(4, patient.getAddress());
-            stmt.setString(4, patient.getPhone());
+            stmt.setString(5, patient.getPhone());
 
             stmt.executeUpdate();
         } catch (SQLIntegrityConstraintViolationException e) {
